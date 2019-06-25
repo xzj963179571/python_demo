@@ -1,0 +1,31 @@
+1561475862703	geckodriver	INFO	geckodriver 0.21.0
+1561475862720	geckodriver	INFO	Listening on 127.0.0.1:63410
+1561476203886	geckodriver	INFO	Listening on 127.0.0.1:64172
+1561476206960	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.PhwgJmyAKZGk
+1561476206966	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1561476207100	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64183
+1561476207996	Marionette	INFO	Listening on port 64183
+1561476209182	Marionette	INFO	startBrowser ae001eae-54c9-4254-b647-8a16c8294ff1
+1561476209197	Marionette	INFO	sendAsync ae001eae-54c9-4254-b647-8a16c8294ff1
+1561476209453	Marionette	INFO	sendAsync ae001eae-54c9-4254-b647-8a16c8294ff1
+1561476211567	Marionette	INFO	sendAsync ae001eae-54c9-4254-b647-8a16c8294ff1
+1561476211575	Marionette	INFO	sendAsync ae001eae-54c9-4254-b647-8a16c8294ff1
+1561476211790	Marionette	INFO	sendAsync ae001eae-54c9-4254-b647-8a16c8294ff1
+1561476211797	Marionette	INFO	sendAsync ae001eae-54c9-4254-b647-8a16c8294ff1
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1561476272986	geckodriver	INFO	Listening on 127.0.0.1:64319
+1561476276050	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.3R6kNaR1ZYxI
+1561476276056	geckodriver::marionette	INFO	Starting browser C:\Program Files\Mozilla Firefox\firefox.exe with args []
+1561476276070	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64331
+1561476277178	Marionette	INFO	Listening on port 64331
+1561476278393	Marionette	INFO	startBrowser d3e781f8-f18f-4349-8a53-f5924ced709a
+1561476278403	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+1561476278686	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1561476280543	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+1561476280552	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+1561476280744	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+1561476280755	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1561476282835	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
