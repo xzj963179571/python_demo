@@ -24,3 +24,33 @@ for a in range(1,1000):
             sum += o
     if sum == a:
         print(a)
+
+
+
+#输出Fibonacci数列
+
+a = 0
+b = 1
+while b<100:
+    print(b)
+    a = b
+    b = a+b
+
+
+
+
+
+# 笔记
+"""
+while 循环	在给定的判断条件为 true 时执行循环体，否则退出循环体。
+for 循环	重复执行语句
+嵌套循环	你可以在while循环体中嵌套for循环
+
+break 语句	在语句块执行过程中终止循环，并且跳出整个循环
+continue 语句	在语句块执行过程中终止当前循环，跳出该次循环，执行下一次循环。
+pass 语句	pass是空语句，是为了保持程序结构的完整性。
+
+
+
+"""
+
