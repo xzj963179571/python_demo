@@ -1,12 +1,4 @@
-
-
-
-copy的流年同学的笔记
-
-
-
-import math
-
+#coding=utf-8
 '''
 python函数：通常，函数可以接收零个或多个参数，也可以返回零个或多个值
 1.在使用函数之前必须先定义函数，定义函数的语法格式如下：
@@ -24,61 +16,54 @@ b.形参列表：用于定义该函数可以接收的参数。形参列表由多
 5.程序既可通过 help() 函数查看函数的说明文档，也可通过函数的 __doc__ 属性访问函数的说明文档。下面程序示范了为函数编写说明文档：
 '''
 # 例1
-# def my_max(x,y):#定义一个函数声明2个形参
-#     #定义一个变量z用于接收x,y中较大的值
-#     if x>y:
-#         z=x
-#     else:
-#         z=y
-#     return z#返回变量z的值
-# def say_hi(name):#定义一个函数声明一个形参
-#     print("==正在执行say_hi函数==")
-#     return name+"，你好"
-# a=6
-# b=9
-# result=my_max(a,b)
-# print('result:',result)
-# print(say_hi('孙悟空'))
-# help(my_max)
-# print(my_max.__doc__)
+def my_max(x,y):#定义一个函数声明2个形参
+    #定义一个变量z用于接收x,y中较大的值
+    if x>y:
+        z=x
+    else:
+        z=y
+    return z#返回变量z的值
+def say_hi(name):#定义一个函数声明一个形参
+    print("执行的函数：")
+    return name+"，你好"
 
 '''
 python函数返回多个值
 1.如果程序需要有多个返回值，则既可将多个值包装成列表之后返回，也可直接返回多个值。如果 Python 函数直接返回多个值，
 Python 会自动将多个返回值封装成元组;也可使用 Python 提供的序列解包功能，直接使用多个变量接收函数返回的多个值。
 '''
-# 例2
-# def sum_and_avg(list):
-#     sum=0
-#     count=0
-#     for e in list:
-#         #如果元素e是数值
-#         if isinstance(e,int) or isinstance(e,float):
-#             count+=1
-#             sum+=e
-#     return sum,round(sum/count,2)
-# my_list = [20, 15, 2.8, 'a', 35, 5.9, -1.8]
-# # 获取sum_and_avg函数返回的多个值，多个返回值被封装成元组
-# tp = sum_and_avg(my_list)
-# print(tp)
-# s,avg=sum_and_avg(my_list)#使用多个变量接收返回的多个值
-# print(s)
-# print(avg)
+
+def sum_and_avg(list):
+    sum=0
+    count=0
+    for e in list:
+        #如果元素e是数值
+        if isinstance(e,int) or isinstance(e,float):
+            count+=1
+            sum+=e
+    return sum,round(sum/count,2)
+my_list = [20, 15, 2.8, 'a', 35, 5.9, -1.8]
+# 获取sum_and_avg函数返回的多个值，多个返回值被封装成元组
+tp = sum_and_avg(my_list)
+print(tp)
+s,avg=sum_and_avg(my_list)#使用多个变量接收返回的多个值
+print(s)
+print(avg)
 '''
 python函数递归：在一个函数体内调用它自身，被称为函数递归
 在定义递归函数时有一条最重要的规定： 递归一定要向已知方向进行
 '''
 # 例3己知有一个数列：f(0) = 1，f(1) = 4，f(n + 2) = 2*f(n+ 1) +f(n)，其中 n 是大于 0 的整数，求 f(10) 的值
-# def fn(n):
-#     if n==0:
-#         return 1
-#     elif n==1:
-#         return 4
-#     else:
-#         # 函数中调用它自身，就是函数递归
-#         return 2 * fn(n - 1) + fn(n - 2)
-# #输出fn(10)的值
-# print("fn(10)的值：",fn(10))
+def fn(n):
+    if n==0:
+        return 1
+    elif n==1:
+        return 4
+    else:
+        # 函数中调用它自身，就是函数递归
+        return 2 * fn(n - 1) + fn(n - 2)
+#输出fn(10)的值
+print("fn(10)的值：",fn(10))
 '''
 函数参数
 1.关键字参数：
@@ -106,31 +91,7 @@ print(girth(width = 3.5, 4.8))
 
 
 '''
-# 例4
-# def girth(width,height):
-#     print('width:',width)
-#     print('height:',height)
-#     return 2*(width+height)
-# #调用传统函数的方式，根据位置参数传参
-# print(girth(3.5,4.6))
-# #根据关键字参数传参,使用关键字 参数时可以交换位置
-# print(girth(height=4.6,width=3.5))
-# print(girth(width=3.5,height=4.6))
-# #部分使用关键字参数，部分使用位置参数
-# print(girth(3.5,height=4.6))
-# 例5
-# 为两个参数指定默认值
-# def say_hi(name='kk',message='欢迎到来'):
-#     print(name,'你好')
-#     print('消息是：',message)
-# # 全部使用默认参数
-# say_hi()
-# #只有message参数使用默认值
-# say_hi('白骨精')
-# # 两个参数都不使用默认值
-# say_hi("白骨精", "欢迎学习Python")
-# # 只有name参数使用默认值
-# say_hi(message="欢迎学习Python")
+
 # 例6
 # 定义一个打印三角形的函数，有默认值的参数必须放在后面
 # def printTriangle(char, height = 5) :
@@ -154,39 +115,7 @@ print(girth(width = 3.5, 4.8))
 # 		    a[i]=a[j]
 # 		    a[j]=t
 # print(a)
-# 例7
-# 定义了支持参数收集的函数
-# def test(a,*books):
-#     print(books)
-#     #books被当成元组处理
-#     for b in books:
-#         print(b)
-#     #输出变量a的值
-#     print(a)
-# #调用test函数
-# test(5 , "C语言中文网" , "Python教程")
-# 例8
-# def test1(*book,nums):
-#     print(book)
-#     for bb in book:
-#         print(bb)
-#     print(nums)
-# test1("java",'python',nums=20)
-# test() 函数的第一个参数就是个数可变的形参，由于该参数可接收个数不等的参数值，因此如果需要给后面的参数传入参数值，
-# 则必须使用关键字参数，否则程序会把所传入的多个值都当成是传给 books 参数的。
 
-# 例9
-# def TEST(x,y,z=3,*bb,**score):
-#     print(x,y,z)
-#     print(bb)
-#     print(score)
-# TEST(2,3,4,'ruby','javascript',语文=89,数学=90)
-# 用 test() 函数时，前面的 1、2、3 将会传给普通参数 x、y、z；接下来的两个字符串将会由 books 参数收集成元组；
-# 最后的两个关键字参数将会被收集成字典
-'''
-逆向参数收集：
-a.所谓逆向参数收集，指的是在程序己有列表、元组、字典等对象的前提下，把它们的元素“拆开”后传给函数的参数。
-b.逆向参数收集需要在传入的列表、元组参数之前添加一个星号，在字典参数之前添加两个星号
 '''
 # 例10
 # def test(name, message):
@@ -218,12 +147,12 @@ b.逆向参数收集需要在传入的列表、元组参数之前添加一个星
 # # 按逆向收集的方式将my_dict的多个key-value传给bar()函数
 # bar(**my_dict)
 '''
-函数参数传递机制：
-1.这是由 Python 函数的参数传递机制来控制的。Python 中函数的参数传递机制都是“值传递”。所谓值传递，就是将实际参数值的副本
-（复制品）传入函数，而参数本身不会受到任何影响
-2.如果需要让函数修改某些数据，则可以通过把这些数据包装成列表、字典等可变对象，然后把列表、字典等可变对象作为参数传入函数，
-在函数中通过列表、字典的方法修改它们，这样才能改变这些数据
-'''
+# 函数参数传递机制：
+# 1.这是由 Python 函数的参数传递机制来控制的。Python 中函数的参数传递机制都是“值传递”。所谓值传递，就是将实际参数值的副本
+# （复制品）传入函数，而参数本身不会受到任何影响
+# 2.如果需要让函数修改某些数据，则可以通过把这些数据包装成列表、字典等可变对象，然后把列表、字典等可变对象作为参数传入函数，
+# 在函数中通过列表、字典的方法修改它们，这样才能改变这些数据
+# '''
 # 例13
 # def swap(a,b):
 #     a,b=b,a
@@ -256,33 +185,6 @@ b.逆向参数收集需要在传入的列表、元组参数之前添加一个星
 非全局作用域）中的变量则需要 nonlocal 关键字了
 注：　在函数内部，可以引用全局变量；如果全局和局部都有一个变量，函数查找，由内而外，局部没有，再到全局找
 '''
-# age=19
-# def fun1():
-#     global age
-#     def fun2():
-#         print(age)
-#     fun2()
-#     age=73
-# fun1()
-# print(age)
-# class variable:
-#     a='我是类变量'
-#     def showvariable(self):
-#         b='我是函数变量'
-#         #print(a)#毫无疑问，编译器就已经报错了，这是因为类中的变量不可以在函数中直接访问
-#         print(variable.a)#
-#         print(self.a)
-#         print(b)
-# variable().showvariable()
-# a='我是全局变量'
-# def showvariable():
-#     b='我一直是局部变量'
-#     print(a)
-#     print(b)
-# def showb():
-#     print(b)#报错，不能访问局部变量
-# showvariable()
-# showb()
 
 '''
 python内置函数：python内置了一系列的常用函数，以便于我们使用，python英文官方文档详细说明
@@ -298,11 +200,3 @@ Func2()
 4.比如要引用模块 math，就可以在文件最开始的地方用 import math 来引入。在调用 math 模块中的函数时，必须这样引用：
 模块名.函数名
 '''
-# Money = 2000
-# def AddMoney():
-#     # 想改正代码就取消以下注释:
-#     global Money
-#     Money = Money + 1
-#     print(Money)
-# AddMoney()
-# print(Money)
