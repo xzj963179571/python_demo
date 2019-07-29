@@ -29,3 +29,87 @@ JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/stat
 1561476280755	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
 JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
 1561476282835	Marionette	INFO	sendAsync d3e781f8-f18f-4349-8a53-f5924ced709a
+1563617497130	geckodriver	INFO	Listening on 127.0.0.1:51819
+1563617500487	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.Soznq8EfZda8
+1563617500505	geckodriver::marionette	INFO	Starting browser D:\Down\firefox\firefox.exe with args []
+1563617500941	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51829
+1563617501720	Marionette	INFO	Listening on port 51829
+1563617502737	Marionette	INFO	startBrowser 153c3ac5-1223-46fc-940e-edfbc7baf424
+1563617502748	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+1563617503009	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1563617530321	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+1563617530338	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+1563617530504	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+1563617530511	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1563617532595	Marionette	INFO	sendAsync 153c3ac5-1223-46fc-940e-edfbc7baf424
+1563619020201	geckodriver	INFO	Listening on 127.0.0.1:51964
+1563619023306	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.UqI5REYvKIKo
+1563619023315	geckodriver::marionette	INFO	Starting browser D:\Down\firefox\firefox.exe with args []
+1563619023344	geckodriver::marionette	INFO	Connecting to Marionette on localhost:51972
+1563619024115	Marionette	INFO	Listening on port 51972
+1563619025260	Marionette	INFO	startBrowser 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+1563619025272	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+1563619025479	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1563619027847	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+1563619027854	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+1563619028007	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+1563619028014	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/jquery/jquery-1.10.2.min_65682a2.js, line 52: Error: Syntax error, unrecognized expression: .c-container /deep/ .c-container
+1563619030099	Marionette	INFO	sendAsync 8f00e1ed-dbdb-4284-90b4-4d486cdb864a
+1563625029795	geckodriver	INFO	Listening on 127.0.0.1:53555
+1563625032902	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.q0m8K7iahSqp
+1563625032910	geckodriver::marionette	INFO	Starting browser D:\Down\firefox\firefox.exe with args []
+1563625032945	geckodriver::marionette	INFO	Connecting to Marionette on localhost:53563
+1563625033762	Marionette	INFO	Listening on port 53563
+1563625034856	Marionette	INFO	startBrowser d209c538-5ff8-4bb5-9e7c-0e914240aa3a
+1563625034869	Marionette	INFO	sendAsync d209c538-5ff8-4bb5-9e7c-0e914240aa3a
+1563625035083	Marionette	INFO	sendAsync d209c538-5ff8-4bb5-9e7c-0e914240aa3a
+1563798083461	geckodriver	INFO	Listening on 127.0.0.1:63516
+1563798086612	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.H16mqYFnUWCt
+1563798086623	geckodriver::marionette	INFO	Starting browser D:\Down\firefox\firefox.exe with args []
+1563798087867	geckodriver::marionette	INFO	Connecting to Marionette on localhost:63527
+1563798089102	Marionette	INFO	Listening on port 63527
+1563798090438	Marionette	INFO	startBrowser d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563798090449	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563798090786	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1563798106584	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563798106594	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563798106754	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563798106761	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563798108847	Marionette	INFO	sendAsync d74c19aa-a0a6-4d03-be41-88fbf2c10bd1
+1563799677824	geckodriver	INFO	Listening on 127.0.0.1:64099
+1563799680931	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.xY2iIOzuVXX4
+1563799680940	geckodriver::marionette	INFO	Starting browser D:\Down\firefox\firefox.exe with args []
+1563799680962	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64107
+1563799681922	Marionette	INFO	Listening on port 64107
+1563799682956	Marionette	INFO	startBrowser 0c2b4f97-b9b7-4c7d-a120-18ae02f09dc6
+1563799682967	Marionette	INFO	sendAsync 0c2b4f97-b9b7-4c7d-a120-18ae02f09dc6
+1563799683190	Marionette	INFO	sendAsync 0c2b4f97-b9b7-4c7d-a120-18ae02f09dc6
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1563799778119	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1563799784737	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+1563799784783	addons.productaddons	WARN	Failed downloading via XHR, status: 0, reason: error
+[]
+1563799744959	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64160
+1563799745876	Marionette	INFO	Listening on port 64160
+1563799746922	Marionette	INFO	startBrowser 7493c297-49b0-4628-b838-ee24569711ad
+1563799746933	Marionette	INFO	sendAsync 7493c297-49b0-4628-b838-ee24569711ad
+1563799747154	Marionette	INFO	sendAsync 7493c297-49b0-4628-b838-ee24569711ad
+1563799797950	geckodriver	INFO	Listening on 127.0.0.1:64199
+1563799801071	mozprofile::profile	INFO	Using profile path C:\Users\ADMINI~1\AppData\Local\Temp\rust_mozprofile.i8RhZHR8nWDY
+1563799801080	geckodriver::marionette	INFO	Starting browser D:\Down\firefox\firefox.exe with args []
+1563799801093	geckodriver::marionette	INFO	Connecting to Marionette on localhost:64211
+1563799801814	Marionette	INFO	Listening on port 64211
+1563799803016	Marionette	INFO	startBrowser 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+1563799803026	Marionette	INFO	sendAsync 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+1563799803240	Marionette	INFO	sendAsync 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+1563799803349	Marionette	INFO	sendAsync 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+JavaScript error: https://ss1.bdstatic.com/5eN1bjq8AAUYm2zgoY3K/r/www/cache/static/protocol/https/plugins/every_cookie_4644b13.js, line 4: ReferenceError: c is not defined
+1563799809102	Marionette	INFO	sendAsync 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+1563799809118	Marionette	INFO	sendAsync 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+1563799811248	Marionette	INFO	sendAsync 733a0151-d2c5-469c-b7c0-d3bdbc3fa31f
+[Child 9948] ###!!! ABORT: Aborting on channel error.: file c:/builds/moz2_slave/m-rel-w64-00000000000000000000/build/src/ipc/glue/MessageChannel.cpp, line 2046

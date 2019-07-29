@@ -33,37 +33,40 @@ python函数返回多个值
 Python 会自动将多个返回值封装成元组;也可使用 Python 提供的序列解包功能，直接使用多个变量接收函数返回的多个值。
 '''
 
-def sum_and_avg(list):
-    sum=0
-    count=0
-    for e in list:
-        #如果元素e是数值
-        if isinstance(e,int) or isinstance(e,float):
-            count+=1
-            sum+=e
-    return sum,round(sum/count,2)
-my_list = [20, 15, 2.8, 'a', 35, 5.9, -1.8]
-# 获取sum_and_avg函数返回的多个值，多个返回值被封装成元组
-tp = sum_and_avg(my_list)
-print(tp)
-s,avg=sum_and_avg(my_list)#使用多个变量接收返回的多个值
-print(s)
-print(avg)
-'''
-python函数递归：在一个函数体内调用它自身，被称为函数递归
-在定义递归函数时有一条最重要的规定： 递归一定要向已知方向进行
-'''
-# 例3己知有一个数列：f(0) = 1，f(1) = 4，f(n + 2) = 2*f(n+ 1) +f(n)，其中 n 是大于 0 的整数，求 f(10) 的值
-def fn(n):
-    if n==0:
-        return 1
-    elif n==1:
-        return 4
-    else:
-        # 函数中调用它自身，就是函数递归
-        return 2 * fn(n - 1) + fn(n - 2)
-#输出fn(10)的值
-print("fn(10)的值：",fn(10))
+
+
+
+# def sum_and_avg(list):
+#     sum=0
+#     count=0
+#     for e in list:
+#         #如果元素e是数值
+#         if isinstance(e,int) or isinstance(e,float):
+#             count+=1
+#             sum+=e
+#     return sum,round(sum/count,2)
+# my_list = [20, 15, 2.8, 'a', 35, 5.9, -1.8]
+# # 获取sum_and_avg函数返回的多个值，多个返回值被封装成元组
+# tp = sum_and_avg(my_list)
+# print(tp)
+# s,avg=sum_and_avg(my_list)#使用多个变量接收返回的多个值
+# print(s)
+# print(avg)
+# '''
+# python函数递归：在一个函数体内调用它自身，被称为函数递归
+# 在定义递归函数时有一条最重要的规定： 递归一定要向已知方向进行
+# '''
+# # 例3己知有一个数列：f(0) = 1，f(1) = 4，f(n + 2) = 2*f(n+ 1) +f(n)，其中 n 是大于 0 的整数，求 f(10) 的值
+# def fn(n):
+#     if n==0:
+#         return 1
+#     elif n==1:
+#         return 4
+#     else:
+#         # 函数中调用它自身，就是函数递归
+#         return 2 * fn(n - 1) + fn(n - 2)
+# #输出fn(10)的值
+# print("fn(10)的值：",fn(10))
 '''
 函数参数
 1.关键字参数：
