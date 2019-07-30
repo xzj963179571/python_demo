@@ -1,7 +1,9 @@
 from selenium import webdriver
 from time import sleep
+from selenium.webdriver.common.action_chains import ActionChains
 driver = webdriver.Firefox()
-url = 'http://www.baidu.com'
+# url = 'http://www.baidu.com'
+url = "https://xdclass.net"
 driver.get(url)
 # print(driver.title)
 #
@@ -41,3 +43,13 @@ driver.get(url)
     提供一个万能的验证码（安全性需要保密，一般在开发测试环境使用）
     使用cookie（登录主要是为了那cookie，获取登录凭证）
     """
+
+# 错误截图
+login_ele = driver.find_element_by_css_selector(".login > span:nth-child(2)").click()
+# username = driver.find_element_by_css_selector(".mobienum > input:nth-child(1)").send_keys("16621103980")
+ActionChains(driver).click(login_ele).perform()
+
+try:
+    driver.find_element_by_id("xdclass").click()
+except:
+    driver.get_screenshot_as_file("D:/error.png")
