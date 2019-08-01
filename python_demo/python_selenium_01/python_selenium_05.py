@@ -1,7 +1,7 @@
 from selenium import webdriver
 from time import sleep
 from selenium.webdriver.common.action_chains import ActionChains
-driver = webdriver.Firefox()
+driver = webdriver.Chrome()
 # url = 'http://www.baidu.com'
 url = "https://xdclass.net"
 driver.get(url)
@@ -40,6 +40,7 @@ driver.get(url)
         TensorFlow 
 2.绕过
     让开发人员临时关闭验证码（安全性需要保密，一般在开发测试环境使用）
+    
     提供一个万能的验证码（安全性需要保密，一般在开发测试环境使用）
     使用cookie（登录主要是为了那cookie，获取登录凭证）
     """
