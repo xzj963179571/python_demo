@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="9072eb68-793a-4b6a-b85a-94d3faaca72b" name="Default Changelist" comment="selenium">
+    <list default="true" id="9072eb68-793a-4b6a-b85a-94d3faaca72b" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py" beforeDir="false" afterPath="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,79 +13,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_demo/selenium——demo.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
-              <folding>
-                <element signature="e#0#15#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_02.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="893">
-              <caret line="47" column="3" selection-start-line="47" selection-start-column="3" selection-end-line="47" selection-end-column="3" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_demo/python_demo_07.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="5282">
-              <caret line="278" column="13" selection-start-line="278" selection-start-column="13" selection-end-line="278" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_04.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
-              <folding>
-                <element signature="e#348#379#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_05.py">
+        <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="551">
-              <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+            <state relative-caret-position="320">
+              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
               <folding>
-                <element signature="e#0#30#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_01.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
-              <folding>
-                <element signature="e#0#30#0" expanded="true" />
+                <element signature="e#2141#2156#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -119,11 +54,14 @@
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_02.py" />
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_04.py" />
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_demo_05.py" />
+        <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_05.py" />
+        <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_demo_06.py" />
+        <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="-7" />
+    <option name="x" value="786" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -181,28 +119,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.python_demo_05">
-    <configuration name="python_demo_02" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_demo/python_demo_02.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
+  <component name="RunManager" selected="Python tests.Unittests in python_selenium_06.py">
     <configuration name="python_demo_03" type="PythonConfigurationType" factoryName="Python">
       <module name="python_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -224,97 +141,83 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="python_demo_05" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for python_selenium_06.XdclassTestCase" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo/python_selenium_01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Administrator\PycharmProjects\python_demo\python_demo\python_selenium_01\python_selenium_05.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;python_selenium_06.XdclassTestCase&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="python_selenium_01" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for python_selenium_06.XdclassTestCase.test_four" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_demo/python_selenium_01.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="python_selenium_04" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="python_demo" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo/python_selenium_01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_04.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;python_selenium_06.XdclassTestCase.test_four&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
       <method v="2" />
     </configuration>
-    <configuration name="selenium——demo" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="Unittests for python_selenium_06.XdclassTestCase.test_one" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
       <module name="python_demo" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo/python_selenium_01" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/python_demo/selenium——demo.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;python_selenium_06.XdclassTestCase.test_one&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests for python_selenium_06.XdclassTestCase.test_two" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo/python_selenium_01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;python_selenium_06.XdclassTestCase.test_two&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="Unittests in python_selenium_06.py" type="tests" factoryName="Unittests" temporary="true" nameIsGenerated="true">
+      <module name="python_demo" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/python_demo/python_selenium_01" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.python_demo_05" />
-        <item itemvalue="Python.python_selenium_04" />
-        <item itemvalue="Python.python_selenium_01" />
-        <item itemvalue="Python.selenium——demo" />
-        <item itemvalue="Python.python_demo_02" />
+        <item itemvalue="Python tests.Unittests in python_selenium_06.py" />
+        <item itemvalue="Python tests.Unittests for python_selenium_06.XdclassTestCase" />
+        <item itemvalue="Python tests.Unittests for python_selenium_06.XdclassTestCase.test_one" />
+        <item itemvalue="Python tests.Unittests for python_selenium_06.XdclassTestCase.test_four" />
+        <item itemvalue="Python tests.Unittests for python_selenium_06.XdclassTestCase.test_two" />
       </list>
     </recent_temporary>
   </component>
@@ -441,23 +344,77 @@
       <option name="project" value="LOCAL" />
       <updated>1564485956317</updated>
     </task>
-    <option name="localTasksCounter" value="17" />
+    <task id="LOCAL-00017" summary="selenium">
+      <created>1564487048027</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1564487048027</updated>
+    </task>
+    <task id="LOCAL-00018" summary="selenium">
+      <created>1564662670002</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1564662670002</updated>
+    </task>
+    <task id="LOCAL-00019" summary="selenium">
+      <created>1564674760756</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1564674760756</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.02 at 23h 17m 11s.xml">
+      <configuration name="Unittests for python_selenium_06.XdclassTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.02 at 23h 18m 21s.xml">
+      <configuration name="Unittests for python_selenium_06.XdclassTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.02 at 23h 21m 30s.xml">
+      <configuration name="Unittests for python_selenium_06.XdclassTestCase" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 21m 49s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 22m 21s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 23m 56s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 24m 32s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 25m 50s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 26m 05s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 26m 20s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.12908325" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1743941" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.20920044" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3308026" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.3286334" />
+      <window_info anchor="bottom" id="Version Control" order="7" sideWeight="0.49947312" weight="0.32858709" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.3286334" />
       <window_info anchor="bottom" id="Python Console" order="10" />
@@ -577,7 +534,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_demo/selenium——demo.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
+        <state relative-caret-position="342">
           <caret line="18" column="26" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="26" />
           <folding>
             <element signature="e#0#15#0" expanded="true" />
@@ -587,7 +544,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
+        <state relative-caret-position="190">
           <caret line="10" column="13" selection-start-line="10" selection-start-column="13" selection-end-line="10" selection-end-column="13" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -611,7 +568,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_04.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
+        <state relative-caret-position="589">
           <caret line="31" column="8" selection-start-line="31" selection-start-column="8" selection-end-line="31" selection-end-column="8" />
           <folding>
             <element signature="e#348#379#0" expanded="true" />
@@ -621,7 +578,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_01.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
+        <state relative-caret-position="171">
           <caret line="9" column="12" selection-start-line="9" selection-start-column="12" selection-end-line="9" selection-end-column="12" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
@@ -631,10 +588,27 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_05.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="551">
-          <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
+        <state relative-caret-position="397">
+          <caret line="36" column="10" selection-start-line="36" selection-start-column="10" selection-end-line="36" selection-end-column="10" />
           <folding>
             <element signature="e#0#30#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="437">
+          <caret line="811" column="23" lean-forward="true" selection-start-line="811" selection-start-column="23" selection-end-line="811" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+          <folding>
+            <element signature="e#2141#2156#0" expanded="true" />
           </folding>
         </state>
       </provider>
