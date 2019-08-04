@@ -97,7 +97,7 @@ import unittest
 import HTMLTestRunner
 import time
 
-class AUTO_Test(unittest.TestCase):
+class XdclassTestCase(unittest.TestCase):
     def setUp(self):
         self.age = 32
         self.name = "小D课堂"
@@ -114,7 +114,7 @@ class AUTO_Test(unittest.TestCase):
         u"test_two方法"
         print("test_two 前端来了")
         # 断言是否为true，msg是断言错误的提示信息
-        self.assertTrue('XD'.isupper(),msg="不是大写")
+        self.assertFalse('XD'.isupper(),msg="不是大写")
 
 
     def test_three(self):
@@ -134,17 +134,12 @@ class AUTO_Test(unittest.TestCase):
         self.assertEqual('foo'.upper(),'FOO')
 
 
-
-
-
-
-
 if __name__ == '__main__':
-    suites = unittest.TestSuite()
-    suites.addTest(AUTO_Test('test_one'))
-    suites.addTest(AUTO_Test('test_two'))
-    suites.addTest(AUTO_Test('test_three'))
-    suites.addTest(AUTO_Test('test_four'))
+    suite = unittest.TestSuite()
+    suite.addTest(XdclassTestCase('test_one'))
+    suite.addTest(XdclassTestCase('test_two'))
+    suite.addTest(XdclassTestCase('test_three'))
+    suite.addTest(XdclassTestCase('test_four'))
     # verbosity参数可以控制执行结果的输出，0是简单报告，1是一般报告（默认），2是详细报告
     # runner = unittest.TextTestRunner(verbosity=2)
     # runner.run(suite)
@@ -154,9 +149,9 @@ if __name__ == '__main__':
     # wb 以二进制格式打开一个文件，只用于写入，如果文件存在则覆盖，不存在则创建
     file_prefix = time.strftime("%Y.%m.%d %H_%M_%S", time.localtime())
     print(file_prefix)
-    file_name = "D:\\log\\result.html"
+    file_name = "D:"+file_prefix+"result.html"
     fp = open(file_name,"wb")
     # stream  定义一个测试报告写入的文件，title就是标题，description就是描述
-    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"小D课堂 测试报告",description=u"c测试用例执行情况")
-    runner.run(suites)
+    runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"小D课堂 测试报告",description=u"测试用例执行情况")
+    runner.run(suite)
     fp.close()
