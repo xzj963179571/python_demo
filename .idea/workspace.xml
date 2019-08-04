@@ -16,8 +16,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+            <state relative-caret-position="414">
+              <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
               <folding>
                 <element signature="e#2141#2156#0" expanded="true" />
               </folding>
@@ -56,12 +56,13 @@
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_demo_05.py" />
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_05.py" />
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_demo_06.py" />
+        <option value="$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py" />
         <option value="$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="786" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="953" />
     <option name="width" value="974" />
     <option name="height" value="1047" />
   </component>
@@ -72,6 +73,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -99,13 +101,12 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="settings.editor.selected.configurable" value="settings.github" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -365,52 +366,59 @@
       <option name="project" value="LOCAL" />
       <updated>1564674760756</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="selenium">
+      <created>1564759601960</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1564759601961</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.02 at 23h 17m 11s.xml">
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 10h 38m 33s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 10h 38m 51s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 10h 39m 32s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 10h 41m 05s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 10h 45m 03s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 10h 48m 18s.xml">
+      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.04 at 10h 52m 31s.xml">
       <configuration name="Unittests for python_selenium_06.XdclassTestCase" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.02 at 23h 18m 21s.xml">
-      <configuration name="Unittests for python_selenium_06.XdclassTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_for_python_selenium_06_XdclassTestCase - 2019.08.02 at 23h 21m 30s.xml">
-      <configuration name="Unittests for python_selenium_06.XdclassTestCase" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 21m 49s.xml">
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 11h 00m 50s.xml">
       <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 22m 21s.xml">
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 11h 01m 21s.xml">
       <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
     </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 23m 56s.xml">
-      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 24m 32s.xml">
-      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 25m 50s.xml">
-      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 26m 05s.xml">
-      <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
-    </history-entry>
-    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.02 at 23h 26m 20s.xml">
+    <history-entry file="Unittests_in_python_selenium_06_py - 2019.08.04 at 11h 03m 35s.xml">
       <configuration name="Unittests in python_selenium_06.py" configurationId="tests" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="953" y="0" width="974" height="1047" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1743941" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.35363248" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.3308026" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.33077765" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39978093" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -477,6 +485,37 @@
     <MESSAGE value="selenium 学习demo" />
     <MESSAGE value="selenium" />
     <option name="LAST_COMMIT_MESSAGE" value="selenium" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py</url>
+          <line>93</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py</url>
+          <line>538</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py</url>
+          <line>642</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py</url>
+          <line>776</line>
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py</url>
+          <line>631</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$USER_HOME$/.PyCharmCE2019.1/system/python_stubs/-547368178/builtins.py">
@@ -596,17 +635,34 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/unittest/case.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="86" column="17" lean-forward="true" selection-start-line="86" selection-start-column="17" selection-end-line="86" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$USER_HOME$/AppData/Local/Programs/Python/Python37-32/Lib/HTMLTestRunner.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="437">
-          <caret line="811" column="23" lean-forward="true" selection-start-line="811" selection-start-column="23" selection-end-line="811" selection-end-column="23" />
+        <state relative-caret-position="-420">
+          <caret line="630" selection-start-line="630" selection-end-line="630" />
+          <folding>
+            <element signature="e#3215#3230#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_HOME_DIR$/helpers/typeshed/stdlib/3/unittest/__init__.pyi">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="33" column="8" selection-start-line="33" selection-start-column="8" selection-end-line="33" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/python_demo/python_selenium_01/python_selenium_06.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="320">
-          <caret line="143" lean-forward="true" selection-start-line="143" selection-end-line="143" />
+        <state relative-caret-position="414">
+          <caret line="160" column="21" lean-forward="true" selection-start-line="160" selection-start-column="21" selection-end-line="160" selection-end-column="21" />
           <folding>
             <element signature="e#2141#2156#0" expanded="true" />
           </folding>
