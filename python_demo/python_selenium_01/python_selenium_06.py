@@ -140,11 +140,11 @@ class AUTO_Test(unittest.TestCase):
 
 
 if __name__ == '__main__':
-    suite = unittest.TestSuite()
-    suite.addTest(AUTO_Test('test_one'))
-    suite.addTest(AUTO_Test('test_two'))
-    suite.addTest(AUTO_Test('test_three'))
-    suite.addTest(AUTO_Test('test_four'))
+    suites = unittest.TestSuite()
+    suites.addTest(AUTO_Test('test_one'))
+    suites.addTest(AUTO_Test('test_two'))
+    suites.addTest(AUTO_Test('test_three'))
+    suites.addTest(AUTO_Test('test_four'))
     # verbosity参数可以控制执行结果的输出，0是简单报告，1是一般报告（默认），2是详细报告
     # runner = unittest.TextTestRunner(verbosity=2)
     # runner.run(suite)
@@ -158,5 +158,5 @@ if __name__ == '__main__':
     fp = open(file_name,"wb")
     # stream  定义一个测试报告写入的文件，title就是标题，description就是描述
     runner = HTMLTestRunner.HTMLTestRunner(stream=fp,title=u"小D课堂 测试报告",description=u"c测试用例执行情况")
-    runner.run(suite)
+    runner.run(suites)
     fp.close()
