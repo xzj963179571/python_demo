@@ -170,8 +170,42 @@ SMTP服务器： smtp.126.com   25
 IMAP服务器： imap.126.com   143
 """
 
+# import smtplib
+# import os,time,datetime
+# from email.mime.text import MIMEText
+# from email.header import Header
+#
+#
+# #收件人
+# sender = "xiaozhenjie5221@163.com"
+# receiver = "963179571@qq.com"
+#
+# #不用密码发送，而是用授权码
+# auth_code = "jienuo1314"
+# subject = "自动化测试报告"
+#
+# #定义发送内容
+# msg = MIMEText("<html><h2>欢迎来带小D课堂<h2><html>",_subtype="html",_charset="utf-8")
+# msg["Subject"] = subject
+# msg["from"] = sender
+# msg["to"] = receiver
+#
+#
+# smtp = smtplib.SMTP()
+# smtp.connect("smtp.163.com")
+# smtp.login(sender,auth_code)
+# smtp.sendmail(sender,receiver,msg.as_string())
+#
+# smtp.quit()
+
+
+
+
+
+# 发送附件
 import smtplib
 import os,time,datetime
+from email.mime.multipart import MIMEMultipart
 from email.mime.text import MIMEText
 from email.header import Header
 
@@ -184,13 +218,35 @@ receiver = "963179571@qq.com"
 auth_code = "jienuo1314"
 subject = "自动化测试报告"
 
-#定义发送内容
-msg = MIMEText("<html><h2>欢迎来带小D课堂<h2><html>",_subtype="html",_charset="utf-8")
+
+f = open("D://2019.08.10 18_25_48result.html",'rb')
+mail_body = f.read()
+print(mail_body)
+f.close()
+
+
+#HTML形式的文件内容
+html = MIMEText(mail_body,_subtype="html",_charset="utf-8")
+html["Subject"] = subject
+html["from"] = sender
+html["to"] = receiver
+
+
+# html附件  将测试报告放在附件中发送
+att1 = MIMEText(mail_body,'base64','gb2312')
+att1["Content-Type"] = 'application/octet-stream'
+att1["Content-Disposition"] = 'attachment; filename="report.html"'
+
+
+
+msg = MIMEMultipart()
 msg["Subject"] = subject
-msg["from"] = sender
-msg["to"] = receiver
+msg.attach(html)
+msg.attach(att1)
 
 
+
+# 连上服务器
 smtp = smtplib.SMTP()
 smtp.connect("smtp.163.com")
 smtp.login(sender,auth_code)
